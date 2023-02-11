@@ -1,0 +1,149 @@
+.feature1{
+    padding: 8rem;
+    background-color: #f5f5f5;
+}
+
+.feature1 .row{
+    justify-content: space-between;
+
+}
+/* Col-1 */
+.col-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;  
+    border-radius: 3px;
+    padding: 0;
+    height: 22rem;
+}
+.col-1>div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.col-1>:nth-child(2),.col-1>:nth-child(3) {
+    background-color: #333333;
+}
+
+
+.col-1>div:nth-child(1){
+    background-color: #ff8b38;
+    border-radius:  3px 3px  0 0;
+}
+
+.col-1>div:nth-child(3){
+    border-radius: 0 0 3px 3px;
+
+}
+
+.tabItem>a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: #dfdfdf;
+}
+
+/* Col-6 */
+.col-6{
+    padding: 0;
+}
+.feature1>.row>.col-6>h4{
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.feature1>.row>.col-6>p{
+    color: #a1a1a2;
+    font-size: 1rem;
+ 
+}
+
+.feature1>.row>.col-6>button{
+    margin-top: 2rem;
+    border: solid 1px #d8d8d8;
+    color: #e9e9e9;
+    background-color: #ff8b38;
+    width: 26%;
+    height: 15%;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+/* col-3 */
+.col-3{
+    padding: 0;
+}
+
+.feature1>.row>.col-3>img{
+    width: 100%;
+    margin-top: 2rem;
+}
+@media screen and (max-width: 576px) {
+    #feature1{
+        padding: 4rem 2rem;
+    }
+    .feature1>.row>.col-3>img{
+        height: 50%;
+    }
+    .feature1>.row>div:nth-child(2)>button{
+        margin-top: 0;
+        width: 40%;
+        height: 13%;
+    }
+    .col-sm-1>.tabItem>a{
+        font-size: x-small;
+    }
+
+    .feature1>.row>div:nth-child(2)>p{
+        font-size: x-small;
+    }
+
+    .feature1>.row>div:nth-child(2)>button{
+        font-size: x-small;
+        height: 8%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .tabItem>a{
+        font-size: small;
+    }
+    .row>div:nth-child(2)>h4{
+        font-size: large;
+        margin-bottom: 2rem;
+    }
+    .row>div:nth-child(2)>p{
+        font-size: small;
+    }
+    .btn-download-o{
+        font-size: small;
+
+    }
+
+
+}
+
+@media screen and (max-width: 992px) {
+    .feature1{
+        padding:4rem;
+    }
+    .tabItem>a{
+        font-size: small;
+    }
+    .row>.col-sm-7>h4{
+        font-size: large;
+    }
+    .feature1>.row>.col-6>p{
+        font-size: small;
+    }
+    .row>.col-6>button{
+        font-size: small;
+    }
+
+}

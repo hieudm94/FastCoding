@@ -1,0 +1,134 @@
+.feature2{
+    padding: 6rem 8rem;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* feature2 left */
+.feature2-img{
+    padding: 1rem 0 0 0 ;
+    height: 80%;
+}
+/* feature2 right */
+.feature2>.col-6:nth-child(2)>h4{
+    font-weight: bold;
+}
+
+.feature2>.col-6:nth-child(2)>img{
+    margin: 20px 0;
+    width: 16%;
+}
+
+.feature2>.col-6:nth-child(2)>p{
+    color: #a1a1a2;
+    font-size: 1rem;
+}
+
+    /* title1 */
+
+        /* title1-l */
+.title1, .title2{
+    display: flex;
+    gap: 2rem;
+}
+
+.title1-l{
+    width: 15%;
+}
+
+        /* title1-r */
+.title1-l>i ,.title2-l>i{
+    color: #fe8b38;
+    border: 2px solid #fe8b38;
+    border-radius: 50%;
+    height: 50px!important ;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        }        
+.title-content-b{
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #757575;   
+}
+
+.title-content-p{
+    color: #b5b5b7;
+}
+
+.title2-l{
+    width: 30%;
+}
+
+.title2-l>i{
+    height: 50%;
+}
+
+@media screen and (max-width: 576px) {
+    .feature2{
+        padding: 2rem 1rem 2rem 2rem!important;
+    }
+    /* feature2 left */
+    .feature2-img{
+        margin-top: 5rem;
+    }
+
+    /* feature2 right */
+    .feature2>.col-6:nth-child(2)>img{
+        height: 1px;
+    }
+    .feature2>.col-6:nth-child(2)>h4{
+        margin-bottom: 1rem;
+    }
+    .feature2>.col-6:nth-child(2)>p{
+        font-size: x-small;
+    }
+    .title1-r>p,.title2-r>p{
+        font-size: x-small;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* feature2 right */
+    .row>div:nth-child(2)>p{
+        font-size: small !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+   .feature2{
+        padding: 4rem 4rem;
+   } 
+   /* feature2 right */
+   .title2-l>i{
+       width: 50px;
+       height: 50px;
+   }
+   .col-6:nth-child(2)>h4{
+    font-size: large;
+    }
+    .col-6:nth-child(2)>p{
+    font-size: small;
+    }
+    .title-content-b{
+        font-size: smaller;
+    }
+    .title-content-p{
+        font-size: small;
+    }
+    .title1-l>i, .title2-l>i{
+        width: 35px;
+        height: 35px!important;
+    }
+}
+
+
+
+
+
+
+
+

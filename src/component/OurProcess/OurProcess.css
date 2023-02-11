@@ -1,0 +1,136 @@
+.ourProcess{
+    background-color: #ffffff;
+    padding: 6rem 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ourProcess top */
+.ourProcess-t{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ourProcess-t>p{
+    font-size: 3rem;
+    color: #333333;
+    font-weight: 300;
+}
+
+.ourProcess-t>img{
+    width: 20%;
+    height: 2px;
+}
+
+/*ourProcess center  */
+.ourProcess-c>p{
+    color: #a1a1a2;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+/*ourProcess bottom  */
+
+.ourProcess-b{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.ourProcess-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+
+}
+
+.ourProcess-item>.ourProcess-content{
+    color: #a1a1a2;
+    font-size: 1rem;
+}
+
+.ourProcess-icon{
+    width: 90px;
+    height: 90px;
+    border: 2px solid #fead72;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.ourProcess-icon>i{
+   font-size: 35px;
+   color:#fead72 ;
+}
+
+.ourProcess-titile>h4{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+@media screen and (max-width: 576px) {
+    .ourProcess{
+        padding: 2rem 1rem!important;
+    }
+/*ourProcess top  */    
+    .ourProcess>.ourProcess-t>p {
+        font-size: x-large;
+    }
+/*ourProcess center  */    
+    .ourProcess>.ourProcess-c>p{
+        margin-bottom: 0;
+    }
+/*ourProcess bottom  */   
+    .ourProcess>.ourProcess-b {
+        margin: 1rem 0;
+    }
+    .ourProcess-item>.ourProcess-icon{
+        width: 35px;
+        height: 35px;
+    }
+    .ourProcess-item>.ourProcess-icon>i{
+        font-size: 20px;
+    }
+    .ourProcess-item>.ourProcess-titile>h4 {
+       margin: 1rem 0;
+    }
+
+
+}
+@media screen and (max-width: 992px) {
+    .ourProcess{
+        padding: 4rem 4rem 2rem 4rem;
+    }
+
+/*ourProcess top  */
+    .ourProcess-t>p{
+        font-size: xx-large;
+    }
+/*ourProcess center  */    
+    .ourProcess-c>p{
+        font-size: small;
+        margin: 1rem 0;
+    }
+/*ourProcess bottom  */    
+    .ourProcess-b{
+        margin: 2rem 0;
+    }
+    .ourProcess-icon{
+        width: 60px;
+        height: 60px;
+    }
+    .ourProcess-icon>i{
+        font-size: 25px;
+    }
+    .ourProcess-titile>h4{
+        font-size: large;
+    }
+    .ourProcess-item>.ourProcess-content{
+        font-size: small;
+    }
+}

@@ -1,0 +1,119 @@
+.customSection{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    z-index: 2;
+}
+/* customSection background */
+.customSection-BG{
+    background-image: url(../../assets/u25_state0.jpg);
+    height: 19rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    filter: brightness(50%);
+
+}
+
+/* customSection top */
+.customSection-t{
+    z-index: 2;
+    margin-top: 3rem;
+    
+}
+.customSection-t>p{
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fefffe;
+    margin-bottom: 0;  
+    z-index: 3;
+}
+
+/* customSection center */
+.customSection-c{
+    z-index: 2;
+}
+.customSection-c>p{
+    color: #a4a6a5;
+    font-size: 1rem;
+    margin: 1rem 0;
+
+}
+/* customSection bottom */
+.customSection-b{
+    z-index: 2;
+}
+.customSection-btn{
+    border: solid 2px #fefefe;
+    color: #fefefe;
+    background-color: transparent;
+    width: 12%;
+    height: 100%;
+    font-weight: 600;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    
+}
+@media screen and (max-width: 576px) {
+    .customSection{
+        padding: 1rem;
+    }
+/* customSection top */    
+    .customSection-t{
+        margin-top: 2rem;
+    } 
+    .customSection>.customSection-t>p {
+        font-size: x-large;
+    }    
+    img{
+        height: 10px;
+        width: 60px;
+    }
+/* customSection bottom */
+    .customSection>.customSection-b>.customSection-btn{
+        width: 20%;
+        height: 10%;
+        font-size: xx-small;
+        padding: 0.3rem ;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+    .customSection{
+        padding: 0 1rem;
+    }
+    /* customSection bottom */    
+    .customSection-b>.customSection-btn{
+        width: 9%;
+        height: 25px;
+        font-size: x-small;
+        padding: 0;
+        border: 0.5px solid #fefefe;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    /* customSection top */
+    .customSection-t>p{
+        font-size: xx-large;
+    }
+    /* customSection center */   
+    .customSection-c>p{
+        font-size: small;
+    }
+    /* customSection bottom */    
+    .customSection-btn{
+        width: 10%;
+        height: 40px;
+        font-size: small;
+        padding: 0;
+    }
+}
